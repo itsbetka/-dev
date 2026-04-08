@@ -1,5 +1,4 @@
-/* Temel Ayarlar */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,10 +9,9 @@ body {
     background-color: #03080e;
     color: #ffffff;
     line-height: 1.6;
-    scroll-behavior: smooth; /* Sayfa içi geçişleri yumuşatır */
+    scroll-behavior: smooth; 
 }
 
-/* Navigasyon Menüsü */
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,12 +47,10 @@ nav a:hover {
     color: #1affe6;
 }
 
-/* Bölüm Ayarları */
 section {
     padding: 100px 8%;
 }
 
-/* Hero Bölümü */
 .hero {
     display: flex;
     align-items: center;
@@ -94,7 +90,6 @@ section {
     max-width: 500px;
 }
 
-/* Butonlar */
 .btn-grup {
     display: flex;
     gap: 20px;
@@ -131,7 +126,6 @@ section {
     color: #03080e;
 }
 
-/* Profil Resmi */
 .hero-sag img {
     width: 350px;
     height: 350px;
@@ -141,7 +135,6 @@ section {
     box-shadow: 0 0 20px rgba(26, 255, 230, 0.5);
 }
 
-/* Kartlar ve İstatistikler */
 .kart {
     background-color: #0b111a;
     padding: 40px;
@@ -175,7 +168,6 @@ h2.baslik {
     color: #1affe6;
 }
 
-/* Projeler */
 .proje-izgara {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -201,7 +193,6 @@ h2.baslik {
     margin-bottom: 10px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 30px;
@@ -211,7 +202,6 @@ footer {
     color: #aab8c2;
 }
 
-/* Mobil Uyumluluk */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column-reverse;
